@@ -5,15 +5,15 @@ import { HomeComponent } from './home/home.component';
 import { AddcircleComponent } from './addcircle/addcircle.component';
 import { PagenofoundComponent } from './pagenofound/pagenofound.component';
 import { StudentComponent } from './student/student.component';
-import { AdminModule } from './admin/admin.module';
+import { Landing2Component } from './admin/landing2/landing2.component';
 
 const routes: Routes = [
-  {path:'',component:LandingComponent},
-  {path:'landing',component: LandingComponent},
-  {path:'home',component:HomeComponent},
-  {path:'addcircle',component:AddcircleComponent},
-  {path:'student',component: StudentComponent},
-  
+  {path : '',component:LandingComponent},
+  {path : 'landing',component: LandingComponent},
+  {path : 'home',component:HomeComponent},
+  {path : 'addcircle',component:AddcircleComponent},
+  {path : 'student',component: StudentComponent},
+  {path : 'landing2', component: Landing2Component},
   // {
    // path:'items',
    // loadChildren:() => import('./items/items.module').then(m => m.ItemsModule)

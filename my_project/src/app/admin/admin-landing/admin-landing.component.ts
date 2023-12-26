@@ -9,4 +9,8 @@ import { Router } from '@angular/router';
 export class AdminLandingComponent {
   constructor(private router : Router){}
 
+lan2(){
+  this.router.navigateByUrl('admin/lan2')
+}
+
 }

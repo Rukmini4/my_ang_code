@@ -9,6 +9,8 @@ import { FormsModule } from '@angular/forms';
 import { PagenofoundComponent } from './pagenofound/pagenofound.component';
 import { StudentComponent } from './student/student.component';
 console.log('app module........');
+
+
 @NgModule({
   declarations: [ //components,directive,pipes
     AppComponent,
